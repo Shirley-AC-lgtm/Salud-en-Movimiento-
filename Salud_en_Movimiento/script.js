@@ -40,7 +40,7 @@
         const fechaFormateada = `${partesFecha[2]}/${partesFecha[1]}/${partesFecha[0]}`;
 
         // Construir el mensaje estructurado sin simbolos raros
-        let mensaje = `Hola *Salud en Movimiento*! Me gustaria agendar una terapia a domicilio:\n\n`;
+        let mensaje = `Hola *Yamileth*! Me gustaria agendar una terapia a domicilio:\n\n`;
         mensaje += `- Paciente: ${nombre}\n`;
         mensaje += `- Servicio: ${servicio}\n`;
         mensaje += `- Zona/Direccion: ${direccion}\n`;
