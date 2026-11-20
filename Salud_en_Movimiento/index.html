@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud en Movimiento | Fisioterapia a Domicilio</title>
+    <!-- Fuentes modernas de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Iconos de Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVEGACION -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand">
+                <img src="logo.png" alt="Logo Salud en Movimiento" class="nav-logo">
+                <span>SALUD EN <span class="text-cyan">MOVIMIENTO</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i class="ph ph-list"></i>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#servicios">Servicios</a>
+                <a href="#sobre-mi">Sobre Mi</a>
+                <a href="#agendar" class="btn-nav">Agendar Cita</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCION PRINCIPAL (HERO) -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge"><i class="ph ph-house-line"></i> Atencion 100% a Domicilio</span>
+                <h1>Recupera tu bienestar y vuelve a moverte <span class="text-cyan">sin dolor</span>.</h1>
+                <p>Terapia fisica personalizada en la comodidad de tu hogar. Alivia tensiones, mejora tu movilidad y cuida tu cuerpo con atencion dedicada y sin prisas.</p>
+                <div class="hero-buttons">
+                    <a href="#agendar" class="btn btn-primary">
+                        <i class="ph ph-calendar-check"></i> Pedir mi terapia
+                    </a>
+                    <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="logo-card">
+                    <img src="logo.png" alt="Salud en Movimiento Fisioterapia">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="services section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">En que te puedo ayudar?</span>
+                <h2>Servicios de Fisioterapia y Bienestar</h2>
+                <p>Llevo el equipo necesario hasta tu casa para brindarte una sesion segura, comoda y adaptada a tus necesidades.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-box"><i class="ph ph-lightning"></i></div>
+                    <h3>Descarga Muscular</h3>
+                    <p>Ideal si sientes sobrecarga por ejercicio, estres acumulado o tension constante en cuello, hombros y espalda.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box"><i class="ph ph-person-simple-run"></i></div>
+                    <h3>Rehabilitacion y Movilidad</h3>
+                    <p>Acompanamiento fisico para recuperar fuerza, rango de movimiento y estabilidad tras lesiones leves o rigidez articular.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box"><i class="ph ph-hands-clapping"></i></div>
+                    <h3>Masaje Terapeutico</h3>
+                    <p>Tecnicas manuales enfocadas en aliviar fatiga muscular, mejorar la circulacion y devolverle ligereza a tu cuerpo.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box"><i class="ph ph-heartbeat"></i></div>
+                    <h3>Prevencion y Postura</h3>
+                    <p>Evaluacion postural y rutinas de ejercicios guiados para evitar molestias derivadas del trabajo de oficina o malas posturas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-image">
+                <!-- Reemplaza este bloque con una foto real de tu hermana cuando la tengan -->
+                <div class="about-photo">
+                    <img src="Yo.jpeg" alt="Foto de la fisioterapeuta de Salud en Movimiento">
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="subtitle">Conoceme</span>
+                <h2>Atencion cercana, humana y actualizada</h2>
+                <p>Hola! Soy <strong>Yamileth Alvarado</strong>, fundadora de <em>Salud en Movimiento</em> y estudiante de la Licenciatura en Fisioterapia.</p>
+                <p>Mi formacion universitaria actual me permite trabajar con tecnicas modernas y un enfoque preventivo, dedicandole a cada paciente el tiempo y el cuidado real que merece.</p>
+                <ul class="about-list">
+                    <li><i class="ph-fill ph-check-circle text-cyan"></i> Sin traslados ni trafico: voy hasta la puerta de tu casa.</li>
+                    <li><i class="ph-fill ph-check-circle text-cyan"></i> Sesiones 100% personalizadas segun tu nivel de dolor o meta.</li>
+                    <li><i class="ph-fill ph-check-circle text-cyan"></i> Explicacion clara de cada ejercicio para que sigas mejorando.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- AGENDAR CITA (WHATSAPP INTELIGENTE) -->
+    <section id="agendar" class="booking section-padding">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-info">
+                    <span class="subtitle">Reserva facil</span>
+                    <h2>Agenda tu terapia a domicilio</h2>
+                    <p>Completa estos datos rapidos. Al presionar el boton, se abrira tu WhatsApp con el mensaje listo para enviarme tu solicitud y confirmar disponibilidad.</p>
+
+                    <div class="info-item">
+                        <i class="ph ph-clock text-cyan"></i>
+                        <div>
+                            <strong>Horarios flexibles</strong>
+                            <p>Atencion por las tardes y fines de semana (previa cita).</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="ph ph-map-pin text-cyan"></i>
+                        <div>
+                            <strong>Servicio a domicilio</strong>
+                            <p>Indicame tu zona o colonia para coordinar la visita.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-group">
+                        <label for="nombre">Tu nombre completo *</label>
+                        <input type="text" id="nombre" placeholder="Ej. Maria Perez" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="servicio">Que terapia necesitas? *</label>
+                        <select id="servicio" required>
+                            <option value="" disabled selected>Selecciona una opcion...</option>
+                            <option value="Terapia de Descarga Muscular">Terapia de Descarga Muscular</option>
+                            <option value="Rehabilitacion y Movilidad">Rehabilitacion y Movilidad</option>
+                            <option value="Masaje Terapeutico y Relajante">Masaje Terapeutico y Relajante</option>
+                            <option value="Prevencion y Evaluacion Postural">Prevencion y Evaluacion Postural</option>
+                            <option value="No estoy seguro, necesito orientacion">No estoy seguro / Necesito orientacion</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="direccion">Zona o direccion aproximada *</label>
+                        <input type="text" id="direccion" placeholder="Ej. Zona 10, Ciudad de Guatemala / Mixco" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fecha">Fecha preferida *</label>
+                            <input type="date" id="fecha" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hora">Horario preferido *</label>
+                            <select id="hora" required>
+                                <option value="Por la manana">Por la manana</option>
+                                <option value="Por la tarde (2:00 PM - 5:00 PM)" selected>Por la tarde (2:00 PM - 5:00 PM)</option>
+                                <option value="Tarde-noche (5:00 PM - 7:00 PM)">Tarde-noche (5:00 PM - 7:00 PM)</option>
+                                <option value="Fin de semana">Fin de semana</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="notas">Alguna molestia especifica? (Opcional)</label>
+                        <textarea id="notas" rows="2" placeholder="Ej. Dolor en la espalda baja desde hace unos dias..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-whatsapp">
+                        <i class="ph ph-whatsapp-logo"></i> Solicitar cita por WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PAGINA -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="logo.png" alt="Salud en Movimiento">
+                <p>Salud en Movimiento - Fisioterapia y Bienestar a Domicilio.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Salud en Movimiento. Todos los derechos reservados.</p>
+                <p class="dev-credit">Desarrollado por <strong>ShArt Studios</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTON FLOTANTE DE WHATSAPP -->
+    <a href="https://wa.me/50200000000?text=Hola%20Salud%20en%20Movimiento,%20me%20gustaria%20informacion%20sobre%20una%20terapia"
+       target="_blank" class="float-wa" aria-label="Contactar por WhatsApp">
+        <i class="ph ph-whatsapp-logo"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
